@@ -19,9 +19,9 @@ if (!isset($index)) {
     <li>
         <a href="#our-courses">Our Courses</a>
     </li>
-    <!-- <li>
+    <li>
         <a href="#schedule-fees">Schedule & Fees</a>
-    </li> -->
+    </li>
     <li>
         <a href="#contact-us">Contact</a>
     </li>

@@ -28,6 +28,7 @@
 <?php require_once "./view-content-eroll-from.php"; ?>
 <?php require_once "./view-content-why-we.php"; ?>
 <?php require_once "./view-content-duas.php"; ?>
+<?php require_once "./view-schedule-fees.php"; ?>
 <?php require_once "./view-ads-and-contact-form.php"; ?>
 <?php require_once "./view-feedback-option.php"; ?>
 <?php require_once "./view-footer.php"; ?>
@@ -167,7 +168,29 @@ img{
 }
 .content-desc.feedbacks .review input[type="submit"]:hover{
     background-color: #003849;
-} 
+}
+
+
+.content-desc table{
+    border-collapse: collapse;
+    width: 100%;
+}
+.content-desc table th,
+.content-desc table td {
+  text-align: center;
+  padding: 8px;
+}
+.content-desc table tr:nth-child(even){
+    background-color: #f2f2f2
+}
+.content-desc table tr:hover td{
+    cursor: pointer;
+    background: #00a9722b;
+}
+.content-desc table th {
+  background-color: #04AA6D;
+  color: white;
+}
 </style>
 <script>
 const images = document.querySelectorAll(".pics-flex-row .pics-flex-row-item");
