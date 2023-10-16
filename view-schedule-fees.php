@@ -1,8 +1,9 @@
-<h1 id="#schedule-fees" class="content-title">Fee Structure For <?php echo date("Y");?></h1>
+<h1 id="schedule-fees" class="content-title">Fee Structure For <?php echo date("Y");?></h1>
 <div class="content-desc">
     <table>
         <thead>
             <tr>
+                <th></th>
                 <th>Schedule/Week</th>
                 <th>Class Per Month</th>
                 <th>Each Class Duration</th>
@@ -11,19 +12,32 @@
         </thead>
         <tbody>
             <tr>
-                <td>2 Classes/Week</td><td>08/Month</td><td>30 Minutes</td><td>$30/Month</td>
+                <td>Package 1</td>
+                <td>2 Days / Week</td>
+                <td>8 Classes / Month</td>
+                <td>30 Min / Day</td>
+                <td>$35 / Monthly</td>
             </tr>
             <tr>
-                <td>3 Classes/Week</td><td>12/Month</td><td>30 Minutes</td><td>$30/Month</td>
+                <td>Package 2</td>
+                <td>3 Days / Week</td>
+                <td>12 Classes / Month</td>
+                <td>30 Min / Day</td>
+                <td>$45 / Monthly</td>
             </tr>
             <tr>
-                <td>4 Classes/Week</td><td>16/Month</td><td>30 Minutes</td><td>$35/Month</td>
+                <td>Package 3</td>
+                <td>5 Days / Week</td>
+                <td>20 Classes / Month</td>
+                <td>30 Min / Day</td>
+                <td>$60 / Monthly</td>
             </tr>
             <tr>
-                <td>5 Classes/Week</td><td>20/Month</td><td>30 Minutes</td><td>$35/Month</td>
-            </tr>
-            <tr>
-                <td>HIFZ Classes</td><td>20/Month</td><td>60 Minutes</td><td>$70/Month</td>
+                <td>Package 4</td>
+                <td>Weekend Class</td>
+                <td>8 Classes / Month</td>
+                <td>30 Min / Day</td>
+                <td>$55 / Monthly</td>
             </tr>
         </tbody>
     </table>

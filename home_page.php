@@ -191,6 +191,17 @@ img{
   background-color: #04AA6D;
   color: white;
 }
+
+
+.homeBannerOverlay {
+    position: absolute;
+    z-index: 99;
+    top: 50%;
+    transform: translate(10%, -50%);
+}
+#homeBanner{
+	position: relative;
+}
 </style>
 <script>
 const images = document.querySelectorAll(".pics-flex-row .pics-flex-row-item");
