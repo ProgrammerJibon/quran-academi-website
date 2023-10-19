@@ -36,6 +36,10 @@
 </body>
 </html>
 <style>
+html{
+    max-width: 100vw;
+    overflow-x: hidden;
+}
 img{
     width: 100%;
     height: 100%;
@@ -213,6 +217,10 @@ img{
 .hamburger{
     display: none;
 }
+
+.content-title img {
+    max-height: 100px;
+}
 @media only screen and (max-width: 900px){
 .user-account {
     display: none;
@@ -305,6 +313,30 @@ img{
 }
 .nav-menus.show .dropdown-content a{
     width: max-content;
+}
+.super-flex {
+    flex-direction: column-reverse;
+}
+.super-flex img.item, .super-flex video.item {
+    max-width: 100%;
+}
+.pics-flex-row {
+    margin: 0 16px;
+}
+.pics-flex-row-item {
+    width: 200px;
+}
+.ads-contacts {
+    margin-bottom: 0;
+    flex-direction: column-reverse;
+}
+.our-courses {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: stretch;
+    padding: 0 32px;
+    justify-content: space-between;
 }
 }
 </style>
