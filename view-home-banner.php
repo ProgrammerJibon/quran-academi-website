@@ -1,21 +1,6 @@
 <div class="container" id="homeBanner">
-	<script type="text/javascript">
-imageSlider(
-	document.getElementById('homeBanner'),
-	[
-		"./assets/slide-1.png",
-		"./assets/slide-2.png"
-	],
-	[],
-	{
-		dots: false,
-		buttons: true,
-		interval: 3000
-
-	}
-);
-	</script>
-	<div class="homeBannerOverlay">
+	
+	<div class="homeBannerOverlay" hidden>
 		<div>
 			<h3>Welcome to</h3>
 			<h2>Unique Quran Academi</h2>
@@ -30,4 +15,24 @@ imageSlider(
 			</h3>
 		</div>
 	</div>
+	<script type="text/javascript">
+		imageSlider(
+			document.getElementById('homeBanner'),
+			[
+				"./assets/slide-1.gif",
+				"./assets/2nd slide.jpeg",
+				"./assets/1ecf4a4d-6f66-4fd4-8694-ddbb14436fc9.jpeg",
+				"./assets/slide-1.png",
+				"./assets/slide-2.png"
+			],
+			[],
+			{
+				dots: false,
+				buttons: true,
+				interval: 4000,
+				hideOnIndex1:document.querySelector(".homeBannerOverlay")
+
+			}
+		);
+	</script>
 </div>

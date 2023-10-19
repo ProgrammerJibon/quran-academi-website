@@ -201,6 +201,111 @@ img{
 }
 #homeBanner{
 	position: relative;
+    height: 50vw;
+}
+.content-desc {
+    background: url(/assets/logo-transparent.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-position: center;
+}
+.hamburger{
+    display: none;
+}
+@media only screen and (max-width: 900px){
+.user-account {
+    display: none;
+}
+.navbar {
+    display: flex;
+}
+.nav-menus {
+    display: none;
+}
+.hamburger{
+    display: block;
+    font-size: 36px;
+    color: white;
+    width: 100%;
+    text-align: right;
+    margin-right: 16px;
+}
+.hamburger i{
+    padding: 16px;
+    cursor: pointer;
+}
+.nav-menus.show {
+    display: flex;
+    position: fixed;
+    background: black;
+    width: 100vw;
+    height: 100vh;
+    z-index: 99;
+    top: 0;
+}
+.nav-menus.show:after {
+    content: "\f00d";
+    color: white;
+    font-family: "Font Awesome 6 Free";
+    position: absolute;
+    border: none;
+    right: 16px;
+    top: 16px;
+    padding: 16px;
+    font-size: 40px;
+    font-weight: 900;
+    cursor: pointer;
+}
+.navbar-container{
+    position: sticky;
+}
+.nav-menus.show ul {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 80px 0;
+}
+.nav-menus.show li {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.nav-menus.show .dropdown-content {
+    max-height: 100%;
+    position: relative;
+    background: none !important;
+}
+.nav-menus.show .dropdown{
+    width: 100%;
+}
+.nav-menus.show .dropdown-content a {
+    background: none;
+}
+.nav-menus.show .dropbtn{
+    display: none;
+}
+.nav-menus.show .dropdown-content {
+    max-height: 100%;
+    position: relative;
+    background: none !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.nav-menus.show .dropdown-content a{
+    width: max-content;
+}
 }
 </style>
 <script>
